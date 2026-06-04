@@ -3,9 +3,9 @@ const productos = [
     id: 1,
     estado: "d",
     imagenes: [
-        "http://imgfz.com/i/1vJ3qo0.jpg",
-        "http://imgfz.com/i/cmJjRQT.jpg",
-        "http://imgfz.com/i/sljD4X2.jpg"
+        "https://imgfz.com/i/1vJ3qo0.jpg",
+        "https://imgfz.com/i/cmJjRQT.jpg",
+        "https://imgfz.com/i/sljD4X2.jpg"
     ],
     titulo: "Cartera de Cuero",
     descripcion: "Cartera de cuero negra con texturizado",
