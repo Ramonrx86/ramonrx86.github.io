@@ -4,14 +4,13 @@
     box-sizing:border-box;
 }
 
-.logo{
-    width:15%;
-    max-width:1000px;
-    height:auto;
+.logo {
+    width: 220px;        /* tamaño fijo más estable */
+    max-width: 90%;
+    height: auto;
 
-    display:block;
-
-    margin:0 auto 10px auto;
+    display: block;
+    margin: 0 auto 10px auto;
 }
 
 .contacto{
@@ -560,4 +559,13 @@ header p{
 
     border:0;
     border-radius:10px;
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        width: 60vw;      /* ocupa 60% de la pantalla */
+        max-width: 200px; /* límite para que no crezca demasiado */
+    }
+
 }
