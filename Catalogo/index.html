@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>J&R</title>
+
+<meta name="description" content="Catálogo online de productos con filtros y ofertas">
+
+<link rel="stylesheet" href="estilos.css">
+
+<script src="datos.js"></script>
+<script src="catalogo.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Cueros J&R</h1>
+    <p>Encuentra la mejor calidad y precio en cueros</p>
+</header>
+
+<div class="barra">
+
+    <input id="buscar" placeholder="Buscar producto...">
+
+    <button id="btnOfertas">
+        Ofertas
+    </button>
+
+    <select id="ordenPrecio">
+        <option value="">Ordenar precio</option>
+        <option value="asc">Menor a Mayor</option>
+        <option value="desc">Mayor a Menor</option>
+    </select>
+
+    <select id="categoria">
+        <option value="">Todas las categorías</option>
+    </select>
+
+</div>
+
+<div id="catalogo"></div>
+
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <img id="modalImg">
+
+        <div class="controls">
+            <button id="prev">◀</button>
+            <button id="next">▶</button>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
